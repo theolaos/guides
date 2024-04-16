@@ -6,3 +6,8 @@ For finding the netbeans.conf
 ```bash
 $ locate netbeans.conf
 ```
+
+type this in the terminal and change the shell theme, check the output, change accordingly
+```bash
+dconf watch /
+```
