@@ -9,5 +9,11 @@ $ locate netbeans.conf
 
 type this in the terminal and change the shell theme, check the output, change accordingly
 ```bash
-dconf watch /
+$ dconf watch /
 ```
+
+If you want to find where opengl is, type
+```bash
+$ locate "libgl.so"
+```
+Mine was in /usr/lib64, same thing for libglfw.
